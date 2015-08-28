@@ -1,7 +1,12 @@
 source ~/.vim/bundle.vim
 
 syntax on
+filetype on
 filetype plugin indent on
+
+set splitbelow
+set splitright
+
 
 " Python-mode Start***************************************
 " Activate rope
@@ -24,7 +29,7 @@ let g:pymode_doc_key = 'K'
 
 "Linting
 let g:pymode_lint = 1
-let g:pymode_lint_checker = "pyflakes,pep8"
+let g:pymode_lint_checker = "pylakes,pep8"
 " Auto check on save
 let g:pymode_lint_write = 1
 
@@ -60,7 +65,14 @@ let g:solarized_termcolors=256
 colorscheme solarized
 " vim-airline End*****************************************
 
+" gedi-vim Start******************************************
+let g:jedi#use_splits_not_buffers = "right"
+
+" gedi-vim End********************************************
+
+
 " Key mapping
 
 map <F2> :NERDTreeToggle<CR>
+" let g:jedi#goto_definitions_command = "<leader>d"
 

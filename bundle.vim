@@ -18,6 +18,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'klen/python-mode'
 " Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
+Plugin 'davidhalter/jedi-vim.git'
 " Plugin 'tpope/vim-surround'
     
 " Language plugins
