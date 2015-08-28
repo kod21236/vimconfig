@@ -1,8 +1,12 @@
 My Vim configuration files.
 To install:
 
-    $ git clone https://github.com/kod21236/vimconfig.git
+    $ cd ~/
+    $ git clone https://github.com/kod21236/vimconfig.git .vim/
     $ ln -s ~/.vim/.vimrc ~/.vimrc
+
+    In vim:
+        :PluginInstall
 
 This Vim configuration also relies on [Vundle][vundle], which should be
 installed automatically. If not, you can install Vundle manually:
