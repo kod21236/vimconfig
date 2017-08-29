@@ -62,7 +62,7 @@ set laststatus=2
 " vim-airline Start***************************************
 set background=dark
 let g:solarized_termcolors=256
-colorscheme solarized
+silent! colorscheme solarized
 " vim-airline End*****************************************
 
 " gedi-vim Start******************************************
